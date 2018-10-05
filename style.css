@@ -8,7 +8,7 @@ body, html {
     padding: 0;
 }
  #header {
-     background: url(images/fiterman.jpg) no-repeat center center fixed;
+     background: url(img/frontbckg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -16,21 +16,13 @@ body, html {
      padding: 5px;
     color: white;
     text-align: center;
-    min-height: 60%;
+    min-height: 80%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.topnav{
-  text-align: center;
-  background-color: #D8D8D8;
-}
-.topnav a{
-  font-family: 'Fira Sans Condensed', sans-serif;
-  font-size: 20px;
-  color: #000;
-}
+
  #logo {
     font-family: 'Fira Sans Condensed', sans-serif;
     font-size: 2.5em;
@@ -44,10 +36,13 @@ body, html {
     padding-bottom: 10px;
     margin-top: 10px;
 }
- #events-title {
+
+#events-title {
     text-align: center;
     padding: 10px;
 }
+
+
 #events-list {
     display: flex;
     justify-content: center;
@@ -78,17 +73,53 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+
+#avt{
+   width: 150px;
+   border-radius: 55%;
+}
  .officer {
     width: 200px;
     margin: 5px;
-    background-color: #D8D8D8;
+    background-color: #FFF;
     border-radius: 5px;
     padding: 5px;
 }
+.button1 {
+    background-color: #A9A9A9;
+    border: none;
+    color: #000;
+    padding:inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1:hover{background: #eee;}
+
+.button {
+    background-color: #D8D8D8;
+    border: none;
+    color: #000;
+    padding:inherit;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {background: #eee;}
+
  #meet-officers {
     text-align: center;
     padding: 10px;
 }
+
  #header img {
     border-radius: 5px;
 }
@@ -96,6 +127,7 @@ body, html {
     font-size: 1.5em;
 }
  #inform {
+    color: #FFF;
     width: 50%;
 }
 #contact {
@@ -116,4 +148,5 @@ body, html {
  #header {
     font-size: 0.5em;
 }
+
 }
