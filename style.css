@@ -102,8 +102,9 @@ body, html {
 
 .button2:hover{background: #A9A9A9;}
 .button1 {
-    background-color: #A9A9A9;
-    border: none;
+  background: transparent ;
+  border: 2px solid grey;
+  border-radius: 5px;
     color: #000;
     padding:inherit;
     text-align: center;
@@ -117,8 +118,9 @@ body, html {
 .button1:hover{background: #eee;}
 
 .button {
-    background-color: #D8D8D8;
-    border: none;
+  background: transparent ;
+  border: 2px solid black;
+  border-radius: 5px;
     color: #000;
     padding:inherit;
     text-align: center;
